@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import BioSection from './BioSection';
 
 class BodyLeft extends Component {
   render() {
@@ -7,6 +8,7 @@ class BodyLeft extends Component {
 
       <div className="Body-Left">
 
+      <BioSection />
 
       </div>
     );

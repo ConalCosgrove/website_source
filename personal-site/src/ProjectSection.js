@@ -3,13 +3,13 @@ import './App.css';
 import ProjectComp from "./ProjectComp.js";
 class ProjectSection extends Component {
   render() {
-
+  	
     return (
 
       <div className="Project-Section">
       	<h2>The most recent projects I've been working on:</h2>
       	<ProjectComp 	title = "Live DART" 
-      					description = "An app that displays realtime data on a specified train station served by Iarnrod Eireann."
+      					description = "An app that displays realtime data on a specified train station served by Iarnrod Eireann. Very handy for quickly checking when the next train you can get is."
       					link = "https://github.com/ConalCosgrove/LiveDART/"
       					image = "http://www.irishrail.ie/images-rwd/logo_irishrail.png"
       					/>
@@ -25,6 +25,10 @@ class ProjectSection extends Component {
       					link = "https://github.com/ConalCosgrove/website_source"
       					image = "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAt_AAAAJDQxOTU0N2ExLTg4MmYtNDBlMC1iMWQzLThlNjRlMmQ2OTYzOQ.jpg"
       					/>
+
+      	<ProjectComp	title = "Android App To Interact w/ Iot Device"
+      					description = "Over the summer of 2017 I worked as the Android developer for a new start up, currently based in Denmark. As the product is still in development I cannot provide more information."
+      					image = "https://blog.stylingandroid.com/wp-content/uploads/2014/12/android.svg"/>
 
 
       </div>

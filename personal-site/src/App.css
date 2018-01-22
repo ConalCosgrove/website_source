@@ -53,6 +53,10 @@
   flex-grow: 1;
   flex-basis: 0;
 }
+
+.Body-Left:hover{
+ 
+}
 .Body-Right{
   flex-grow: 1;
   flex-basis: 0;
@@ -78,11 +82,19 @@
 
 .Project-Image{
   width: 100px;
-
   margin:20px;
 }
 
+.Bio-Section{
+    text-align: left;
+  padding: 20px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes Section-Grow {
+  from{ flex-grow: 1; }
+  to {flex-grow: 1.3;}
 }
