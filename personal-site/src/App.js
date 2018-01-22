@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SiteBody from './SiteBody.js';
 import logo from './logo.svg';
 import './App.css';
 import linkedin from './images/linkedin.svg';
@@ -17,9 +18,9 @@ class App extends Component {
           <img src = {linkedin} className = "Linkedin"/>
           	</div>
         </header>
-        <p className="App-intro">
-         
-        </p>
+        
+        <SiteBody/>
+        
       </div>
     );
   }

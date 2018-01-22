@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #95a5a6;
   height: 150px;
   padding: 20px;
   color: white;
@@ -17,21 +17,20 @@
 }
 
 .App-title {
-  font-size: 4.5em;
+  font-size: 2em;
   vertical-align: middle;
 }
 
 .Linkedin{
 
   width: 50px;
-  vertical-align: middle;
+  align-self: flex-start;
 
 }
 
 .Header-Right{
-  background: white;
-  flex-grow: 1;
-  flex-basis: 0;
+
+
 }
 
 .Header-Left{
@@ -43,8 +42,10 @@
   opacity: 0.8;
 }
 
-.App-intro {
-  font-size: large;
+.SiteBody{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
 }
 
 @keyframes App-logo-spin {
