@@ -15,12 +15,12 @@ class App extends Component {
           		<h1 className="App-title">Conal Cosgrove</h1>
       		</div>
       		<div className="Header-Right">
-          <img src = {linkedin} className = "Linkedin"/>
+          <a href = "http://www.linkedin.com/in/conalcosgrove"><img src = {linkedin} className = "Linkedin"/></a>
           	</div>
         </header>
         
         <SiteBody/>
-        
+
       </div>
     );
   }

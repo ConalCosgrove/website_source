@@ -8,8 +8,8 @@
 }
 
 .App-header {
-  background-color: #95a5a6;
-  height: 150px;
+  background-color: #e74c3c;
+  height: 75px;
   padding: 20px;
   color: white;
   display: flex;
@@ -46,6 +46,40 @@
   display: flex;
   width: 100%;
   flex-direction: row;
+}
+
+.Body-Left{
+  background: #bdc3c7;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.Body-Right{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.Project-Section{
+  text-align: left;
+  padding: 20px;
+  background: #95a5a6;
+}
+
+.Project-Comp{
+  padding:10px;
+  margin: 10px;
+  background: #2980b9;
+}
+
+.Project-Contents{
+  display: flex;
+  align-items: center;
+
+}
+
+.Project-Image{
+  width: 100px;
+
+  margin:20px;
 }
 
 @keyframes App-logo-spin {
