@@ -3,8 +3,12 @@ import './App.css';
 import LiveDart from './images/LiveDart.png';
 
 class ProjectComp extends Component {
-
   render() {
+ 	const sk = this.props.skills;
+  	  const skillSection = sk.map((skill)=>
+  		<li className="Skill-Bubble">+ {skill}</li>
+  		);
+
     return (
 
       <div className="Project-Comp">
@@ -16,7 +20,11 @@ class ProjectComp extends Component {
 
       		<div className = "Project-Text">
 		      	<h3><u>{this.props.title}</u></h3>
-		      	<h5>{this.props.description}</h5>
+		      	<p>{this.props.description}</p>
+		      	<h5>Skills aquired while working on this project: </h5>
+		      	<ul>
+		      	{skillSection}
+		      </ul>
 		      	<a href = {this.props.link}> <h5> more info... </h5> </a>
 		    </div>
       	</div>
